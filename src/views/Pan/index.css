@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    height: 618px;
+    width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.main_nav {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    background-color: #fff;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+
+}
+.main_nav-item {
+    padding: 5px;
+    text-align: center;
+}
+
+.main_body {
+    border: 1px rgba(0, 0, 0, 0.1);
+}

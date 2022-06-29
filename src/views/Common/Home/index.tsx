@@ -16,10 +16,13 @@ function Home(){
                 <div>
                     <Link to='/bookcase'>bookcase</Link>
                 </div>
+                <div>
+                    <Link to='/tools'>tools</Link>
+                </div>
                 
                 
             </nav>
-            <button onClick={jump}></button>
+            <button onClick={jump}>test</button>
             <Outlet/>
             
         </div>
